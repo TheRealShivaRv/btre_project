@@ -26,8 +26,8 @@ def contact(request):
         send_mail(
         'Property Listing Enquiry',
         'There has been an inquiry for ' + listing + 'Sign in to the admin panel for more info',
-        'shivaf35@gmail.com',
-        [realtor_email, 'sanders.yorkshire.150b@gmail.com'],
+        'abc@abc.com',
+        [realtor_email, 'xyz@xyz.com'],
         fail_silently=False,
         )
 
